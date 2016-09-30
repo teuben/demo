@@ -3,4 +3,6 @@ name: Demo
 ---
 
 This is the documentation for demo, in the gh-pages branch.
-But I don't see this in the options on GH. Is SC doc old?
+Not until you have created and pushed this branch onto github,
+will it appear as an option on the Settings page to create
+documentation automatically.

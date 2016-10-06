@@ -23,12 +23,12 @@ but this simple but direct commit back to the server is a two stage process in G
      git commit FILE
      git push
 ```
-If everybody behaves you can almost now live with git.
+If everybody behaves you can almost now live with git, much like you did with CVS.
      
 
 ## Some comments on using git
 
-* Some common and recommended workflows can be found in the git.txt document
+* Some common and recommended workflows can be found in the *git.txt* document
 
 * a ***git clone*** does not preserve original timestamps (which e.g. CVS does). See   http://stackoverflow.com/questions/2179722/checking-out-old-file-with-original-create-modified-timestamps for some comments on this
 

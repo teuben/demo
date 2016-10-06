@@ -1,2 +1,4 @@
-a test in the 'peter1' branch, which is also in the peter1 directory..
+a test in the 'peter1' branch, which is also in the peter1 directory...
 peter2 is now inside of the peter1 branch
+
+added under teuben's b1

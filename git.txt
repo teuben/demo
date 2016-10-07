@@ -8,7 +8,7 @@ There are many ways to collaborate using git or in our case github
 
 	git clone https://github.com/astroumd/demo  demo_astroumd
 	cd demo_astroumd
-	edit f1
+	$EDITOR f1
         git commit f1
         git push
 
@@ -21,7 +21,7 @@ There are many ways to collaborate using git or in our case github
 
    	git branch b1
 	git checkout b1
-	edit f1
+	$EDITOR f1
 	git commit f1
 	git push                   # skip this if you want it only local
 
@@ -52,7 +52,7 @@ There are many ways to collaborate using git or in our case github
 	   git checkout b1 
 	   git branch               # shows you all branch names
 	   git branch -r            # shows all branches on (my) remote
-	   edit f1
+	   $EDITOR f1
 	   git status
 	   git commit f1
 	   git push -u origin b1    # push it back to your GITHUB
@@ -62,6 +62,16 @@ There are many ways to collaborate using git or in our case github
 	   and issue a PULL REQUEST
 	   Wait for an email when this was merged by the coordinater
 	   When this is done, your b1 branch was merged into the master
+	   
+	   On GITHUB you can do that pull request merge graphically, but they also
+	   show you the command line sequence: (untested)
+	   	# put teuben's branch into your repo
+	   	git checkout -b teuben-b1 master
+		git pull https://github.com/teuben/demo.git b1
+		# merge those changes and push back onto github
+		git checkout b1
+		git merge --no-ff teuben-b1
+		git push origin b1
 
         4) Fetch the new master now from the original provider, which we'll label as "upstream"
 
@@ -81,6 +91,7 @@ There are many ways to collaborate using git or in our case github
 	   git branch -D b1
 	   git push origin --delete b1
 
+The 'astropy' project has a nice writeup about their workflow:
 
-<< NOT DONE YET : also reviewing http://docs.astropy.org/en/stable/development/workflow/development_workflow.html
-<<                to see if they have a different view on the workflow  
+http://docs.astropy.org/en/stable/development/workflow/development_workflow.html
+

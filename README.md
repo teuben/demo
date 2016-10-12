@@ -24,6 +24,13 @@ but this simple but direct commit back to the server is a two stage process in G
      git push
 ```
 If everybody behaves you can almost now live with git, much like you did with CVS.
+
+
+## GIT using SSH
+
+You can even avoid using places like github and bitbucket, or setting up your own gitlab, by using your ssh account into the department
+computers. See http://www.astro.umd.edu/~teuben/git/ for a writeup. If you set your permissions correctly, it is also as safe as those
+permissions.
      
 
 ## Some comments on using git

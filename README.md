@@ -45,3 +45,6 @@ permissions.
 
 * If you delete a file, git will be upset. ***git checkout -- file***
 
+# a new data branch?
+
+git is not really usably to store large (binary) data.
